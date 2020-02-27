@@ -1,16 +1,17 @@
-// toggle class scroll 
-$(window).scroll(function() {
-      if($(this).scrollTop() > 50)
-      {
-          $('.navbar-trans').addClass('afterscroll');
-      } else
-      {
-          $('.navbar-trans').removeClass('afterscroll');
-      }  
-  
-  });
-    
-  // demo only 
-  // open link in new tab without ugly target="_blank"
-  $("a[href^='http']").attr("target", "_blank");
-  
+$(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+            $("nav ul").toggleClass("showing");
+      });
+});
+
+// Scrolling Effect
+
+$(window).on("scroll", function() {
+      if($(window).scrollTop()) {
+            $('nav').addClass('black');
+      }
+
+      else {
+            $('nav').removeClass('black');
+      }
+})
