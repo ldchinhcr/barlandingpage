@@ -109,8 +109,11 @@ p {
 }
 
 .google-map {
-    border: 2px solid gray;
+
     box-shadow: gray;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* footer */
