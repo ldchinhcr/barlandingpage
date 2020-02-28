@@ -83,10 +83,12 @@ li>.navbar-item {
     font-weight: bold;
 }
 
-li>.navbar-item:hover {
-    background-color: #CFD186;
-    border-radius: 40px;
-    box-shadow: 3px white;
+.menu .navbar-item:hover::before {
+    content: "- ";
+}
+
+.menu .navbar-item:hover::after {
+    content: " -";
 }
 
 @media(max-width: 786px) {
@@ -128,6 +130,23 @@ header>.container {
     padding-top: 300px;
 }
 
+button .click-me-btn {
+    transition: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
+
+button .click-me-btn:hover::before {
+    content: "- ";
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
+
+button .click-me-btn:hover::after {
+    content: " -";    
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
 
 .hung-caption {
     font-weight: bold;
@@ -136,6 +155,7 @@ header>.container {
 
 .hung-caption2 {
     font-size: 20px;
+    padding-bottom: -100px;
 }
 
 .hung-about-us {
@@ -154,6 +174,16 @@ header>.container {
 .jumbotron {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.frame-follow-us {
+    margin-top: 50px;
+    border: 1px dotted lightgrey;
+    background-color: rgb(245, 227, 227, .5);
+    height: 150px;
+    padding: none;
+    width: auto;
+    border-radius: 40px;
 }
 
 .hung-box {
@@ -176,7 +206,9 @@ header>.container {
 }
 
 .hung-caption3 {
-    margin-top: 100px;
+
     font-weight: bold;
     font-size: 30px;
 }
+
+
