@@ -1,0 +1,120 @@
+.nhan-menu-title {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    mix-blend-mode: multiply;
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+.nhan-reservation {
+    text-align: right;
+    padding-right: 40px;
+    background-color: rgb(24, 23, 23);
+    color: cornsilk;
+}
+.nhan-res {
+    color: blueviolet;
+font-size: 30px;
+}
+
+.img {
+    width: 300px;
+    height: 420px;
+}
+
+.nhan-card-container {
+    position: relative; 
+    width: 300px;
+    height: 450px;
+}
+
+.nhan-text-block {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    border: 2px solid white;
+    color: blanchedalmond;
+    background-color: black;
+    position: absolute;
+    padding: 16px 16px;
+    bottom: 210px;
+    left: 40px;
+}
+
+.nhan-text-block-2 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    border: 2px solid white;
+    color: blanchedalmond;
+    background-color: rgb(146, 56, 56);
+    position: absolute;
+    padding: 16px 16px;
+    bottom: 210px;
+    left: 40px;
+}
+
+.nhan-text-block-3 {
+    text-align: center;
+    position: absolute;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: peru;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+    bottom: 215px;
+    padding: 12px 12px;
+    left: 9px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgb(214, 83, 148), rgb(223, 196, 43));
+  }
+
+  .nhan-card-container:hover .overlay {
+    opacity: 0.6;
+  }
+
+  .nhan-content {
+      
+      margin-top: 250px;
+      border: 3px solid orange;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .nhan-card-container:hover .overlay {
+    animation: heejin 2s infinite;
+}
+
+@keyframes heejin {
+    from {bottom: 0px;}
+    to {top: 25px;}
+}
+
+  .nhan-menu-1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    max-width: 950px;
+  }
+
+  .nhan-wrapper-1 {
+      display: flex;
+      justify-content: center;
+      background-color: black;
+  }

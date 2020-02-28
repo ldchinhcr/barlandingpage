@@ -30,6 +30,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+    z-index: 1;
 }
 
 nav ul {
@@ -56,7 +57,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
+
     color: #fff;
     font-size: 16px;
 }
@@ -75,15 +76,19 @@ nav ul li a {
 
 li>.navbar-item {
     text-decoration: none;
-    transition-delay: 0.3s;
+    transition-delay: 0.1s;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-li>.navbar-item:hover {
-    background-color: lightsteelblue;
-    border-radius: 40px;
-    width: 40px;
+.menu .navbar-item:hover::before {
+    content: "- ";
+}
+
+.menu .navbar-item:hover::after {
+    content: " -";
 }
 
 @media(max-width: 786px) {
@@ -113,6 +118,11 @@ li>.navbar-item:hover {
     }
 }
 
+.menu .navbar-item:hover {
+    letter-spacing: 3px;
+    color: wheat;
+}
+
 header>.container {
     display: flex;
     flex-direction: column;
@@ -121,6 +131,13 @@ header>.container {
     padding-top: 300px;
 }
 
+button .click-me-btn:hover::before {
+    content: "- ";    
+}
+
+button .click-me-btn:hover::after {
+    content: " -";    
+}
 
 .hung-caption {
     font-weight: bold;
@@ -129,19 +146,34 @@ header>.container {
 
 .hung-caption2 {
     font-size: 20px;
+    padding-bottom: -100px;
 }
 
 .hung-about-us {
     text-align: center;
     /*background-image: url(https://voir.ca/voir-content/uploads/2019/03/atwatercc22-1~1475.jpg);*/
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(https://voir.ca/voir-content/uploads/2019/03/atwatercc22-1~1475.jpg);
-    min-height: 700px;
+    min-height: 800px;
     color: white;
-    padding-left: 30%;
-    padding-right: 30%;
+    /* padding-left: 30%;
+    padding-right: 30%; */
     height: 100%;
     padding-top: 160px;
-    background-repeat: none;
+}
+
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.frame-follow-us {
+    margin-top: 50px;
+    border: 1px dotted lightgrey;
+    background-color: rgb(245, 227, 227, .5);
+    height: 150px;
+    padding: none;
+    width: 600px;
+    border-radius: 40px;
 }
 
 .hung-box {
@@ -164,7 +196,9 @@ header>.container {
 }
 
 .hung-caption3 {
-    margin-top: 100px;
+
     font-weight: bold;
     font-size: 30px;
 }
+
+

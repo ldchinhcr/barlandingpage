@@ -1,0 +1,134 @@
+.nhan-wrapper-2 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.nhan-menu-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    max-width: 950px;
+    background-color: black;
+}
+
+.nhan-img-menu-2 {
+    width: 300px;
+    height: 420px;
+}
+
+.nhan-text-block-4 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    border: 2px solid white;
+    color: black;
+    background-color: rgb(202, 221, 32);
+    position: absolute;
+    padding: 16px 16px;
+    bottom: 210px;
+    left: 60px;
+}
+.nhan-text-block-5 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    border: 2px solid white;
+    color: blanchedalmond;
+    background-color: rgb(141, 104, 190);
+    position: absolute;
+    padding: 16px 16px;
+    bottom: 210px;
+    left: 40px;
+}
+.nhan-text-block-6 {
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    border: 2px solid white;
+    color: blanchedalmond;
+    background-color: rgb(56, 192, 124);
+    position: absolute;
+    padding: 16px 16px;
+    bottom: 210px;
+    left: 40px;
+}
+
+
+.nhan-card-container-2 {
+    position: relative; 
+    width: 300px;
+    height: 450px;
+    }
+
+.nhan-content {
+    margin-top: 250px;
+    border: 3px solid orange;
+    text-align: center;
+    font-size: 30px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(138, 233, 14);
+  }
+  .nhan-card-container-2:hover .overlay2 {
+    opacity: 0.6;
+  }
+
+  .nhan-card-container-2:hover .overlay2 {
+      animation: nhan-card-2 2s infinite;
+  }
+
+  @keyframes nhan-card-2 {
+    from {bottom: 0px;}
+    to {top: 25px;}
+  }
+
+
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(154, 60, 173);
+  }
+  .nhan-card-container-2:hover .overlay3 {
+    opacity: 0.6;
+  }
+  .nhan-card-container-2:hover .overlay3 {
+    animation: nhan-card-2 2s infinite;
+}
+
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(116, 164, 204);
+  }
+  .nhan-card-container-2:hover .overlay4 {
+    opacity: 0.6;
+  }
+  .nhan-card-container-2:hover .overlay4 {
+    animation: nhan-card-2 2s infinite;
+}
