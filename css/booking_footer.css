@@ -129,6 +129,13 @@ section {
     justify-content: flex-end;
 }
 
+#contact-form .booking-title {
+    border: 1px solid #f4f4f4;
+    margin-bottom: 30px;
+    height: 150px;
+    background: #444;
+}
+
 #main-footer {
     text-align: center;
     background: #444;
@@ -174,11 +181,13 @@ footer {
 
 .f .up .left .col ul li a {
     text-decoration: none;
-    color: #f4f4f4;
+    /* color: #f4f4f4; */
+    color: crimson;
 }
 
 .f .up .left .col ul li a:hover {
-    color: rgb(10, 240, 10);
+    /* color: rgb(10, 240, 10); */
+    color: #f4f4f4;
 }
 
 .f .up .right {
@@ -255,4 +264,8 @@ footer {
 .f .down .right ul .flag:hover {
     color: rgb(10, 240, 10);
     cursor: pointer;
+}
+
+.right-item {
+    border: 2px solid crimson;
 }
