@@ -1,3 +1,4 @@
+
 html,
 body {
     font-family: Montserrat, sans-serif;
@@ -120,6 +121,7 @@ header>.container {
     padding-top: 300px;
 }
 
+
 .hung-caption {
     font-weight: bold;
     font-size: 50px;
@@ -133,12 +135,13 @@ header>.container {
     text-align: center;
     /*background-image: url(https://voir.ca/voir-content/uploads/2019/03/atwatercc22-1~1475.jpg);*/
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(https://voir.ca/voir-content/uploads/2019/03/atwatercc22-1~1475.jpg);
-    min-height: 500px;
+    min-height: 700px;
     color: white;
     padding-left: 30%;
     padding-right: 30%;
     height: 100%;
     padding-top: 160px;
+    background-repeat: none;
 }
 
 .hung-box {
@@ -158,4 +161,10 @@ header>.container {
 
 .scroll-stop {
     cursor: pointer;
+}
+
+.hung-caption3 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 30px;
 }
