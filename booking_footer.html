@@ -4,137 +4,178 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" 
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
-            crossorigin="anonymous">
-        <link rel="stylesheet" 
-            crossorigin="anonymous" 
-            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" />
-        <script src="https://kit.fontawesome.com/c20b1b26eb.js" crossorigin="anonymous"></script>
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+              crossorigin="anonymous">
         <link rel="stylesheet" href="css/booking_footer.css">
+        <link rel="stylesheet" 
+              crossorigin="anonymous" 
+              href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+              integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" />
+        <script src="https://kit.fontawesome.com/c20b1b26eb.js" crossorigin="anonymous"></script>
         <title>Booking & footer</title>
     </head>
 
     <body>
-        <section id="contact-form" class="py-3">
-            <div class="container">
-                <div class="container bf">
-                    <div class="booking-form">
-                        <div class="booking-title">
-                            <h1 class="l-heading" 
-                                style="text-align: center; color: #f4f4f4; font-family: 'Courier New', Courier, monospace; 
-                                       font-size: 70px; padding-bottom: 0; margin-bottom: 0;">
-                                Booking
-                            </h1>
-                            <p style="text-align: center; font-weight: bold; color: #f4f4f4; 
-                                      font-family: 'Courier New', Courier, monospace; font-size: 20px; margin-top: 0; margin-bottom: 25px;">
-                                Please fill out the form below to book your reservation
-                            </p>
-                        </div>                      
-                        <form action="process.php">
-                            <div class="form-group">
-                                <input type="text" id="name" name="name" placeholder="name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" id="email" name="email" placeholder="email">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" id="message" placeholder="Your feedback please...."></textarea>
-                            </div>
-                            <button type="submit" class="btn">Submit</button>
-                        </form>
+        <!-- <div class="jumbotron my-bg">
+            <div class="row">
+                <div class="col-sm-12 col-lg-7">
+                    <div class="booking-title">
+                        <h1 class="l-heading" 
+                            style="text-align: center; color: #f4f4f4; font-family: 'Courier New', Courier, monospace; 
+                                   font-size: 70px; padding-bottom: 0; margin-bottom: 0;">
+                            Booking
+                        </h1>
+                        <p style="text-align: center; font-weight: bold; color: #f4f4f4; 
+                                  font-family: 'Courier New', Courier, monospace; font-size: 20px; margin-top: 0; margin-bottom: 25px;">
+                            Please fill out the form below to book your reservation
+                        </p>
                     </div>
+
+                    <form action="#">
+                        <div class="form-group"><input type="text" id="name" name="name" placeholder="name"></div>
+
+                        <div class="form-group"><input type="email" id="email" name="email" placeholder="email"></div>
+
+                        <div class="form-group"><textarea name="message" id="message" placeholder="Your feedback please...."></textarea></div>
+
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
                 </div>
                 
-                <div class="container m">
-                    <div class="map">
-                        <iframe class="embed-responsive-item" 
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.28794047012!2d106.6947171!3d10.7866326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae854621c16b504b!2sNoir.%20Dining%20In%20The%20Dark%20Saigon!5e0!3m2!1sen!2s!4v1582790403854!5m2!1sen!2s" 
-                                width="510" 
-                                height="550" 
-                                frameborder="0" 
-                                style="border:0;" 
-                                allowfullscreen="">
-                        </iframe>
-                    </div>
-                </div>                         
-            </div>
-        </section>
 
-        <div class="clr"></div>
-
-        <footer class="f">
-            <div class="up">
-                <div class="left">
-                    <div>
-                        <img src="img/logo2.png" class="logo" style="cursor: pointer; width: 250px; height: 170px;">
-                    </div>
-                    <div class="col">
-                        <ul>
-                            <li>THE BAR</li>
-                            <li> <a href="#">About</a></li>
-                            <li> <a href="#">Jobs</a></li>
-                            <li> <a href="#">For the Cuisine</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul>
-                            <li>OUR COMMUNITIES</li>
-                            <li><a href="#">For Customers</a></li>
-                            <li><a href="#">Cooks</a> </li>
-                            <li><a href="#">Brands</a></li>
-                            <li><a href="#">Investors</a></li>
-                            <li><a href="#">Vendors</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul>
-                            <li>USEFUL LINKS</li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Web Player</a></li>
-                            <li><a href="#">Free Mobile App</a></li>
-                        </ul>
-                    </div>
-                </div>
-    
-                <div class="right">
-                    <div class="right-item">
-                        <div><a href="#"><i class="fab fa-twitter fa-2x"></i></a></div>
-                    </div>
-                    
-                    <div class="right-item">
-                        <div><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></div>
-                    </div>
-                    
-                    <div class="right-item">
-                        <div><a href="#"><i class="fab fa-instagram fa-2x"></i></a></div>
-                    </div>
+                <div class="col-sm-12 col-lg-5 map">
+                    <iframe class="embed-responsive-item" 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.28794047012!2d106.6947171!3d10.7866326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae854621c16b504b!2sNoir.%20Dining%20In%20The%20Dark%20Saigon!5e0!3m2!1sen!2s!4v1582790403854!5m2!1sen!2s" 
+                            width="510" 
+                            height="550" 
+                            frameborder="0" 
+                            style="border:0;" 
+                            allowfullscreen="">
+                    </iframe>
                 </div>
             </div>
+        </div> -->
 
-            <div class="down">
-                <div class="left">
-                    <ul>
-                        <li><a href="#">Legal</a></li>
-                        <li><a href="#">Privacy Center</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Cookies</a></li>
-                        <li><a href="#">About Ads</a></li>
-                        <li><a href="#">Additional CA Privacy Disclosures</a></li>
-                    </ul>
+        <div class="jumbotron chinhle">
+            <div class="container request-chinh">
+              <div class="row mx-auto">
+                <div class="col text-center dark">
+                  <h1>Booking</h1>
+                  <p>Please fill out the form below to book your reservation.</p>
                 </div>
-                <div class="right">
-                    <ul>
-                        <li class="flag">USA <img src="https://masthead.scdn.co/065b62cfb94f49960e7c37413175e2bb/flags/us.svg" width="50px" height="20px"></li>
-                        <li style="color: #f4f4f4">© 2020 Bar website</li>
-                    </ul>
+
+                <div class="col">
+                  <p style="text-align: center; font-size: 30px; font-weight: bold;">Wanna Find Us?</p>
                 </div>
+
+                <div class="w-100"></div>
+
+                <div class="col">
+                  <form class="w-100">
+                    <div class="form-row">
+                      <div class="col mb-3">
+                        <label>First name</label>
+                        <input type="text" class="form-control" value="Mark" required />
+                      </div>
+                      
+                      <div class="col mb-3">
+                        <label>Last name</label>
+                        <input type="text" class="form-control" value="Otto" required />
+                      </div>
+                    </div>
+
+                    <div class="form-row">
+                      <div class="col mb-3">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Email" required />
+                      </div>
+                    </div>
+
+                    <div class="form-row">
+                      <div class="col mb-3">
+                        <label>Phone Number</label>
+                        <input type="tel" class="form-control" placeholder="Phone" required />
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Addtional Request</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"placeholder="Your Addtional Request"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary w-100" type="submit">Submit</button>
+                  </form>
+                </div>
+        
+                <div class="col google-map">
+                  <iframe class="embed-responsive-item w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.28794047012!2d106.6947171!3d10.7866326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae854621c16b504b!2sNoir.%20Dining%20In%20The%20Dark%20Saigon!5e0!3m2!1sen!2s!4v1582790403854!5m2!1sen!2s"
+                    width="490" height="490" frameborder="0" style="border:0;" allowfullscreen="">
+                  </iframe>
+                </div>
+              </div>
             </div>
-        </footer>
+        </div>
 
-        <footer id="main-footer">
-            <p>Bardoo Mobile Bar &copy; 2020, All Rights Reserved </p>
-        </footer>
+        <div class="jumbotron jumbotron-fluid" style="padding: 0; height: 20px;">
+            <div style="max-width: 100%;">
+                <footer class="f">
+                    <div class="up">
+                        <div class="left">
+                            <div>
+                                <img src="img/logo2.png" class="logo" style="cursor: pointer; width: 250px; height: 170px;">
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li>THE BAR</li>
+                                    <li> <a href="#">About</a></li>
+                                    <li> <a href="#">Jobs</a></li>
+                                    <li> <a href="#">For the Cuisine</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li>COMMUNITIES</li>
+                                    <li><a href="#">For Customers</a></li>
+                                    <li><a href="#">Cooks</a> </li>
+                                    <li><a href="#">Brands</a></li>
+                                    <li><a href="#">Investors</a></li>
+                                    <li><a href="#">Vendors</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li>LINKS</li>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">Web Player</a></li>
+                                    <li><a href="#">Free Mobile App</a></li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <div class="right">
+                            <div class="right-item">
+                                <img class="bounce" src="https://gastrobar.qodeinteractive.com/wp-content/uploads/2017/11/home1-img-4-187x198.png" alt="f" width="150" height="160">
+                            </div>
+                            
+                            <div class="right-item">
+                                <img class="bounce" src="https://gastrobar.qodeinteractive.com/wp-content/uploads/2017/11/home1-img-5-143x218.png" alt="d" width="150" height="160">
+                            </div>
+                            
+                            <div class="right-item">
+                                <img class="bounce" src="https://gastrobar.qodeinteractive.com/wp-content/uploads/2017/11/home1-img-6-157x224.png" alt="s" width="150" height="160">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="down">
+                        <p>Bardoo Mobile Bar &copy; 2020, All Rights Reserved <img src="https://masthead.scdn.co/065b62cfb94f49960e7c37413175e2bb/flags/us.svg" 
+                                                                                   width="50px" height="20px"> 
+                        </p>
+                    </div>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>

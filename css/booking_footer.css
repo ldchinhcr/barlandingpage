@@ -84,79 +84,68 @@ p {
 .py-2 { padding: 20px 0; }
 .py-3 { padding: 30px 0; }
 
-#contact-form .form-group {
-    margin-bottom: 20px;
-}
-
-#contact-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-#contact-form input, #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px #ddd solid;
-}
-
-#contact-form textarea {
-    height: 200px;
-}
-
-#contact-form input:focus, #contact-form textarea:focus {
-    outline: none;
-    border-color: #f7c08a;
-}
-
-/* booking form & map */
-section {
+/* chinh le */
+.chinhle {
     background-image: url('/img/bg1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 800px;
+    margin-bottom: 0;
 }
 
-#contact-form .container {
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    margin-top: 30px;
+.col {
+    width: 100%;
 }
 
-.container .m .map {
-    display: flex;
-    justify-content: flex-end;
+.request-chinh {
+    border: 1px solid wheat;
+    background-color: rgba(236, 218, 184, 0.2);
+    border-radius: 30px;
 }
 
-#contact-form .booking-title {
+.row {
+    margin: 20px 20px 20px 20px;
+}
+
+.google-map {
+    border: 2px solid gray;
+    box-shadow: gray;
+}
+
+.chinhle {
+    background-image: url(/img/bg1.png);
+    color: white;
+}
+
+/* .my-bg {
+    background-image: url('/img/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    margin-bottom: 0;
+}
+
+.booking-title {
     border: 1px solid #f4f4f4;
     margin-bottom: 30px;
     height: 150px;
     background: #444;
-}
+} */
 
-#main-footer {
-    text-align: center;
-    background: #444;
-    color: #fff;
-    padding: 20px;
-    height: 80px;
-}
-
-footer {
-    height: 350px;
+/* footer */
+.f {
+    height: 375px;
     background: black;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-bottom: -235px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .f .up {
     display: flex;
     flex-wrap: nowrap;
-    width: 1300px;
-    margin: 0 auto;
     padding-top: 30px;
 }
 
@@ -167,7 +156,6 @@ footer {
     align-items: flex-start;
     justify-content: space-around;
     flex-wrap: nowrap;
-    width: 60%;
 }
 
 .f .up .left .col ul {
@@ -198,25 +186,36 @@ footer {
     justify-content: flex-end;
     align-content: center;
     margin-bottom: 135px;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
-.f .up .right a {
-    margin: 0 20px;
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
 }
 
-.f .up .right a i {
-    color: #f4f4f4;
+.right-item {
+    margin-left: 10px;
 }
 
-.f .up .right a i:hover {
-    color: rgb(10, 240, 10);
+.right-item .bounce:hover {
+    animation: bounceIn 2s;
 }
 
 .f .down {
     display: flex;
     flex-wrap: nowrap;
     width: 1300px;
-    margin: 0 auto;
 }
 
 .f .down .left {
@@ -266,6 +265,21 @@ footer {
     cursor: pointer;
 }
 
-.right-item {
-    border: 2px solid crimson;
+.down {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -308px;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.down p {
+    font-size: 15px;
+    margin-bottom: 20px;
 }
