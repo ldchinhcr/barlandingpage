@@ -120,6 +120,7 @@ li>.navbar-item {
 
 .menu .navbar-item:hover {
     letter-spacing: 3px;
+    color: wheat;
 }
 
 header>.container {
@@ -130,22 +131,12 @@ header>.container {
     padding-top: 300px;
 }
 
-button .click-me-btn {
-    transition: all;
-    transition-delay: 0.2s;
-    transition-duration: 0.3s;
-}
-
 button .click-me-btn:hover::before {
-    content: "- ";
-    transition-delay: 0.2s;
-    transition-duration: 0.3s;
+    content: "- ";    
 }
 
 button .click-me-btn:hover::after {
     content: " -";    
-    transition-delay: 0.2s;
-    transition-duration: 0.3s;
 }
 
 .hung-caption {
@@ -168,7 +159,6 @@ button .click-me-btn:hover::after {
     padding-right: 30%;
     height: 100%;
     padding-top: 160px;
-    background-repeat: none;
 }
 
 .jumbotron {
