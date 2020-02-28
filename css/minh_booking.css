@@ -113,27 +113,6 @@ p {
     box-shadow: gray;
 }
 
-.chinhle {
-    background-image: url(/img/bg1.png);
-    color: white;
-}
-
-/* .my-bg {
-    background-image: url('/img/bg1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 800px;
-    margin-bottom: 0;
-}
-
-.booking-title {
-    border: 1px solid #f4f4f4;
-    margin-bottom: 30px;
-    height: 150px;
-    background: #444;
-} */
-
 /* footer */
 .f {
     height: 375px;
@@ -265,11 +244,11 @@ p {
     cursor: pointer;
 }
 
-.down {
+.bottom {
     text-align: center;
     background: #444;
     color: #fff;
-    padding: 20px;
+    padding: 13px;
     height: 70px;
     position: absolute;
     bottom: 0;
@@ -279,7 +258,6 @@ p {
     width: 100vw;
 }
 
-.down p {
+.bottom p {
     font-size: 15px;
-    margin-bottom: 20px;
 }
