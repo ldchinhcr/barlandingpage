@@ -28,6 +28,7 @@
     font-size: 28px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
 }
 .nhan-button {
     background-color: rgb(65, 50, 65);
@@ -64,6 +65,11 @@
     margin-right: 10px;
     width: 300px;
     height: 450px;
+}
+
+
+.nhan-new-res {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(https://voir.ca/voir-content/uploads/2019/03/atwatercc22-1~1475.jpg)
 }
 
 .nhan-text-block {
