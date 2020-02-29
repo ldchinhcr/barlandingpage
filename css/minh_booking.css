@@ -4,12 +4,46 @@
     box-sizing: border-box;
 }
 
-html, body {
+/* html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
+<<<<<<< HEAD
 }
 
 .minh-btn {
+=======
+} */
+/* 
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0; 
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+} */
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+/* .btn {
+>>>>>>> 24e7718b9eaa8b20f31f64ec918f5dedf2ba21af
     display: inline-block;
     font-size: 18px;
     color: #fff;
@@ -17,14 +51,55 @@ html, body {
     padding: 13px 20px;
     border: none; 
     cursor: pointer;
-}
+} */
 
+<<<<<<< HEAD
 .minh-btn:hover {
+=======
+/* .btn:hover {
+>>>>>>> 24e7718b9eaa8b20f31f64ec918f5dedf2ba21af
     background: #f7c08a;
     color: #333;
 }
 
+<<<<<<< HEAD
 .minh {
+=======
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    color: #333;
+    background: #f7c08a;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+}
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; } */
+
+/* chinh le */
+.chinhle {
+>>>>>>> 24e7718b9eaa8b20f31f64ec918f5dedf2ba21af
     background-image: url('/img/bg1.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,9 +118,6 @@ html, body {
     border-radius: 30px;
 }
 
-.row {
-    margin: 20px 20px 20px 20px;
-}
 
 .google-map {
 
@@ -207,7 +279,7 @@ html, body {
     height: 70px;
     position: absolute;
     bottom: 0;
-    margin-bottom: -308px;
+    /* margin-bottom: -308px; */
     display: flex;
     justify-content: space-around;
     width: 100vw;
