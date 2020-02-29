@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: whitesmoke;
+    color: wheat;
 }
 
 .an-content {
@@ -9,7 +9,58 @@ body {
     padding-top: 20px;
 }
 
-.max-width {
-    max-width: 100%;
+.min-width {
+    min-width: 450px;
     border: none;
+}
+
+.an-name {
+    font-size: 30px;
+    text-align: center;
+}
+
+.an-party {
+    font-size: 40px;
+}
+
+.gifi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    border-right: 4px solid wheat;
+    border-left: 4px solid wheat;
+}
+
+.an-special-menu {
+    color: black;
+    background-color: wheat;
+    width: 100%;
+    height: 120px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background: linear-gradient(90deg, #000, rgb(223, 175, 87), #000);
+}
+
+.an-letter {
+    animation: letter 5s linear infinite;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: rgba(0, 255, 255, 0); */
+}
+
+@keyframes letter {
+    from {
+        color: wheat;
+        background-position: -500%;
+    }
+    to {
+        color: black;
+        background-position: 500%;
+    }
 }
