@@ -22,3 +22,11 @@ $(document).ready(function() {
         }, 700);
     });
 });
+
+$(document).ready(function() {
+    $(".scroller-booking").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".minh-booking").offset().top
+        }, 700);
+    });
+});
