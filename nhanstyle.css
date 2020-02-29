@@ -9,15 +9,47 @@
     text-align: center;
     
 }
+
+.signup-row {
+    padding-bottom: 30px;
+}
+
+.letter-res {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(29, 27, 22), rgb(24, 18, 18));
+
+}
+
+.letter-sign {
+    color: peachpuff;
+}
+.nhan-newsletter {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nhan-button {
+    background-color: rgb(65, 50, 65);
+    border-radius: 2px;
+    box-shadow: none;
+    width: 43%;
+    color: plum;
+}
+.nhan-button-container {
+    display: flex;
+}
+
 .nhan-reservation {
     text-align: right;
     padding-right: 40px;
-    background-color: rgb(24, 23, 23);
     color: cornsilk;
 }
 .nhan-res {
     color: blueviolet;
-font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 
 .img {
@@ -26,7 +58,10 @@ font-size: 30px;
 }
 
 .nhan-card-container {
+    text-align: center;
     position: relative; 
+    margin-left: 10px;
+    margin-right: 10px;
     width: 300px;
     height: 450px;
 }
@@ -41,7 +76,7 @@ font-size: 30px;
     position: absolute;
     padding: 16px 16px;
     bottom: 210px;
-    left: 40px;
+    left: 75px;
 }
 
 .nhan-text-block-2 {
@@ -54,7 +89,7 @@ font-size: 30px;
     position: absolute;
     padding: 16px 16px;
     bottom: 210px;
-    left: 40px;
+    left: 60px;
 }
 
 .nhan-text-block-3 {
@@ -67,7 +102,7 @@ font-size: 30px;
     border-bottom: 2px solid purple;
     bottom: 215px;
     padding: 12px 12px;
-    left: 9px;
+    left: 39px;
 }
 
 
@@ -105,16 +140,108 @@ font-size: 30px;
     to {top: 25px;}
 }
 
-  .nhan-menu-1 {
+.nhan-menu-1 {
     padding-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    max-width: 950px;
+    background-color: rgb(20, 20, 18);
+    width: 950px;
+
   }
 
   .nhan-wrapper-1 {
-      display: flex;
-      justify-content: center;
-      background-color: black;
+      background-color: rgb(20, 20, 19);
+    border-top: 3px solid orange;
+
+  } 
+  .nhan-autumn-menu {
+      width: 100%;
+      padding: 20px 20px    ;
+      letter-spacing: 0.7rem;
+      text-align: center;
+      color: rgb(161, 74, 243);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      background-color: rgb(24, 24, 22)   
+  
+    }
+
+.hung-container {
+    background-image: linear-gradient(rgb(20, 20, 19), black);
+    padding-bottom: 100px;
+
+    
+}
+
+.nhan-bev-menu {
+    height: 180px;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.nhan-icon {
+    font-size: 30px;
+    border-radius: 50px;
   }
+
+.nhan-collection {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 20px 20px;
+}
+.nhan-rc {
+    color: palegoldenrod !important;
+    font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+  
+  .nhan-star {
+    max-width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+  .nhan-star:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+.nhan-icon-rotate {
+    display: flex;
+    justify-content: center;
+}
+
+.nhan-review {
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    color: peachpuff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+}
+
+.nhan-review-2 {
+    color: peru;
+}
+
+.nhan-card-container {
+    text-align: center;
+    background-image: linear-gradient(rgb(66, 27, 27), rgb(146, 56, 56)) !important;
+}
+
+
+
+
+
