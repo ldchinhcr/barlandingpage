@@ -133,8 +133,12 @@ p {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
+}
+
+.f .up .left .col {
+    margin: 0 30px;
 }
 
 .f .up .left .col ul {
@@ -148,23 +152,21 @@ p {
 
 .f .up .left .col ul li a {
     text-decoration: none;
-    /* color: #f4f4f4; */
     color: crimson;
 }
 
 .f .up .left .col ul li a:hover {
-    /* color: rgb(10, 240, 10); */
     color: #f4f4f4;
 }
 
 .f .up .right {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: auto;
+    height: 300px;
     justify-content: flex-end;
     align-content: center;
-    margin-bottom: 135px;
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -183,11 +185,19 @@ p {
     }
 }
 
-.right-item {
-    margin-left: 10px;
+.f .up .right .pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 100%;
 }
 
-.right-item .bounce:hover {
+.f .up .right .pics .p {
+    margin-right: 60px;
+}
+
+.f .up .right .pics .bounce:hover {
     animation: bounceIn 2s;
 }
 
@@ -227,6 +237,9 @@ p {
 .f .down .right {
     margin-left: 200px;
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .f .down .right ul li {
