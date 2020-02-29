@@ -176,7 +176,7 @@ button .click-me-btn::before {
     transition: 1s;
 }
 
-button .click-me-btn:hover::before {
+button:hover .click-me-btn::before {
     opacity: 1;   
 }
 
@@ -186,15 +186,15 @@ button .click-me-btn::after {
     transition: 1s;    
 }
 
-button .click-me-btn:hover::after {
+button:hover .click-me-btn::after {
     opacity: 1;
 }
 
 .scroll-stop .btn {
-    transition: transform 1s;
+    transition: transform 0.8s;
 }
 
-.scroll-stop .btn:hover {
+.scroll-stop:hover .btn {
     transform: rotateX(360deg) scale(2);
 }
 
