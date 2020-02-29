@@ -33,7 +33,7 @@ h1{
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #66da07e8;
+    background-color: rgb(111, 181, 54, 0.6);
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -50,7 +50,7 @@ h1{
     width: 100%;
     height: 99%;
     border-radius: 50%;
-    background: #64e60d;
+    background-color: rgb(111, 181, 54, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -64,7 +64,7 @@ h1{
     transition: all 0.9s ease 0s;
 }
 .our-team:hover .pic img{
-    box-shadow: 0 0 0 14px #f7f5ec;
+    box-shadow: 0 0 0 14px antiquewhite;
     transform: scale(0.7);
 }
 .our-team .team-content{
@@ -88,7 +88,7 @@ h1{
     width: 100%;
     padding: 0;
     margin:0;
-    background: #0a1aee;
+    background-color: rgb(2, 7, 34, 0.5);
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -108,11 +108,17 @@ h1{
     font-size: 17px;
     color: white;
     transition: all 0.5s ease 0s;
+    width: 40px;
 
    }
    .our-team .social li a:hover{
-       color: #0a2ece;
+       color: rgb(2, 7, 34, 0.5);
        background: #f7f5ec;
        text-decoration: none;
 
    }
+
+.col-cards {
+    max-width: 270px;
+    margin-bottom: 20px;
+}
