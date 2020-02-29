@@ -2,12 +2,12 @@ body {
   margin: 0;
 }
 
-.nhan-menu-2 {
+/* .nhan-menu-2 {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     background-color: black;
-}
+} */
 
 .nhan-img-menu-2 {
     width: 300px;
@@ -130,4 +130,19 @@ body {
   }
   .nhan-card-container-2:hover .overlay4 {
     animation: nhan-card-2 2s infinite;
+}
+
+h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid lightgray; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  font-weight: bold;
+  font-size: 15px;
+} 
+
+h2 span { 
+   background:#ffffff; 
+   padding:0 10px; 
 }

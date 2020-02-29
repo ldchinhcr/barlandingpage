@@ -5,15 +5,45 @@ body {
     font-weight: lighter;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background: url(/images/bar-landing-logo.jpg) no-repeat 50% 50%;
+    /* background: url(/banner/bar-landing-logo.jpg) no-repeat 50% 50%;
+    background-size: cover; */
+    overflow: hidden;
     background-size: cover;
+    background-position: center;
+    animation-name: background;
+    animation-duration: 24000ms;
+    animation-iteration-count: infinite;
 }
+
+header::after {
+    content: "";
+    display: none;
+    background-image: url(/banner/1.jpg), url(/banner/2.jpg), url(/banner/3.jpg), url(/banner/4.jfif), url(/banner/5.jpg);
+}
+
+@keyframes background {
+  0%, 20.8333333333% {
+    background-image: url("/banner/1.jpg");
+  }
+  25%, 45.8333333333% {
+    background-image: url("/banner/2.jpg");
+  }
+  50%, 70.8333333333% {
+    background-image: url("/banner/3.jpg");
+  }
+  75%, 95.8333333333% {
+    background-image: url("/banner/4.jfif");
+  }
+  100% {
+    background-image: url("/banner/5.jpg");
+  }
+}
+
 
 .logo {
     line-height: 60px;
@@ -163,7 +193,7 @@ button .click-me-btn:hover::after {
 }
 
 .scroll-stop .btn {
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .scroll-stop .btn:hover {
@@ -240,14 +270,13 @@ button .click-me-btn:hover::after {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 12%;
-    padding-bottom: 12%;
+    padding-bottom: 5%;
 }
 
 :root {
-    --red: #cd4541;
+    --white: #f7dddc;
   }
   
-  .red {
-    color: var(--red);
+  .white {
+    color: var(--white);
   }
