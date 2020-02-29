@@ -37,11 +37,12 @@
     border: 1px solid wheat;
     background-color: rgba(236, 218, 184, 0.2);
     border-radius: 30px;
+    height: 85%;
+    padding-top: 20px;
 }
 
 
 .google-map {
-
     box-shadow: gray;
     align-items: center;
     display: flex;
