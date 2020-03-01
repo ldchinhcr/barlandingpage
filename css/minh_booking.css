@@ -65,8 +65,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+        flex-wrap: nowrap;
 }
 
 .f-minh .up-minh .left-minh .transform-minh img {
