@@ -17,8 +17,6 @@
     background-image: url('/img/bg1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    /* height: 800px; */
     margin-bottom: 0;
 }
 
@@ -50,6 +48,7 @@
 }
 
 /* footer */
+
 .f-minh {
     background: black;
 }
@@ -65,7 +64,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 .f-minh .up-minh .left-minh .transform-minh img {
