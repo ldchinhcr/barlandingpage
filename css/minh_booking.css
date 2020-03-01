@@ -116,3 +116,7 @@
 .bottom-minh p {
     padding-top: 15px;
 }
+
+.jumbotron {
+    border-radius: 0px;
+}
