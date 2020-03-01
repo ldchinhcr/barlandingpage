@@ -1,0 +1,53 @@
+            .an {
+                background-color: black;
+            }
+            
+            .an-label {
+                background: linear-gradient(0deg, wheat, #9e4545);
+                height: 60px;
+                font-family: fantasy;
+            }
+            
+            .an-label-box {
+                margin-top: 60px;
+                margin-bottom: 60px;
+                border-bottom: 1px solid #9e4545;
+                border-top: 1px solid #9e4545;
+            }
+            
+            .an-head-label {
+                animation: letter 4s linear infinite;
+                -webkit-background-clip: text;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                font-family: fantasy;
+                font-weight: 900;
+            }
+            
+            .an-name {
+                font-weight: 900;
+                text-align: center;
+                font-family: fantasy;
+            }
+            
+            .an-card {
+                background: linear-gradient(90deg, #000, #9e4545, black);
+            }
+            
+            .an-card:hover {
+                position: absolute;
+                width: 80%;
+                height: 80%;
+            }
+            
+            @keyframes letter {
+                from {
+                    color: #9e4545;
+                    background-position: -500%;
+                }
+                to {
+                    color: silver;
+                    background-position: 500%;
+                }
+            }
