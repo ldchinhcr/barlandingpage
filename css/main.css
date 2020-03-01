@@ -16,7 +16,7 @@ margin: 0 7%;
 font-size: 20px;
 color: #262626;
 line-height: 40px;
-transition: .5s;
+transition: 0.5s;
 
 }
 .ul-icon-social li a{
@@ -27,7 +27,7 @@ height: 40px;
 background-color: #fff;
 text-align: center;
 transform: perspective(100px) translate(0,0);
-transition: .5s;
+transition: 0.5s;
 box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.5);
 }
 .ul-icon-social li a::before{
