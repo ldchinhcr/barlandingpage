@@ -27,13 +27,15 @@
                 font-weight: 900;
                 text-align: center;
                 font-family: fantasy;
+                font-size: 20px;
             }
             
-            .an-card {
+            .gif-box .row .col .an-card {
                 background: linear-gradient(90deg, #000, #9e4545, black);
+                max-width: 170px;
             }
             
-            .an-card:hover {
+            .gif-box .row .col:hover .an-card {
                 position: absolute;
                 width: 80%;
                 height: 80%;

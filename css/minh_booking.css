@@ -168,11 +168,10 @@
 }
 
 .bottom-minh {
-    background: #444;
+    background-color: #444444;
+    color: #f4f4f4;
 }
 
 .bottom-minh p {
-    font-size: 15px;
-    color: #fff;
-    padding-top: 20px;
+    padding-top: 15px;
 }
