@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .text-primary {
     color: #f7c08a;
 }
@@ -53,7 +47,7 @@
     background: black;
 }
 
-.f-minh .up-minh {
+.up-minh {
     display: flex;
     flex-wrap: nowrap;
     padding-top: 30px;
@@ -67,32 +61,31 @@
     flex-wrap: nowrap;
 }
 
-.f-minh .up-minh .left-minh .transform-minh img {
-    width: 100px;
+.transform-minh img {
+    width: 70%;
 }
 
-.f-minh .up-minh .left-minh .transform-minh {
+.transform-minh {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center;}
 
 
-.f-minh .up-minh .left-minh .col ul {
+.left-minh .col ul {
     list-style-type: none;
 }
 
-.f-minh .up-minh .left-minh .col ul li {
+.left-minh .col ul li {
     margin: 10px 0;
     color: cadetblue;
 }
 
-.f-minh .up-minh .left-minh .col ul li a {
+.left-minh .col ul li a {
     text-decoration: none;
     color: crimson;
 }
 
-.f-minh .up-minh .left-minh .col ul li a:hover {
+.left-minh .col ul li a:hover {
     color: #f4f4f4;
 }
 
@@ -102,7 +95,7 @@
       opacity: 0;
     }
     60% {
-      transform: scale(1.2);
+      transform: scale(0.8);
       opacity: 1;
     }
     100% {
@@ -111,60 +104,8 @@
 }
 
 
-.right-minh .pics-minh .bounce:hover {
+.bounce:hover {
     animation: bounceIn 2s;
-}
-
-.f-minh .down-minh {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.f-minh .down-minh .left-minh {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
-    /* width: 80%; */
-}
-
-.f-minh .down-minh .left-minh ul {
-    display: flex;
-}
-
-.f-minh .down-minh .left-minh ul li {
-    list-style-type: none;
-    margin: 0 10px;
-}
-
-.f-minh .down-minh .left-minh ul li a {
-    text-decoration: none;
-    color: #f4f4f4;
-    font-size: 15px;
-}
-
-.f-minh .down-minh .left-minh ul li a:hover {
-    color: rgb(10, 240, 10);
-}
-
-/* .f-minh .down-minh .right-minh {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} */
-
-.f-minh .down-minh .right-minh ul li {
-    list-style-type: none;
-    font-size: 15px;
-}
-
-.f-minh .down-minh .right-minh ul .flag {
-    color: #f4f4f4;
-}
-
-.f-minh .down-minh .right-minh ul .flag:hover {
-    color: rgb(10, 240, 10);
-    cursor: pointer;
 }
 
 .bottom-minh {
