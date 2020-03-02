@@ -27,7 +27,7 @@
 }
 
 }
-.our-team .pic{
+.our-team>.pic{
     display:inline-block;
     width: 130px;
     height: 130px;
